@@ -33,7 +33,7 @@
   },
   "Authok": {
      "code": {
-       int: 200
+       "int": 200
      },
     "name": {
       "string": "Paco"
