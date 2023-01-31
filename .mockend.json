@@ -1,15 +1,25 @@
 {
-"Patata": {
-  "code": "200",
-  "user": {
-    "name": "Julio González",
-    "token": "privateTokenForFetch",
-    "avatar": "https://via.placeholder.com/150",
-    "company_position": "Dpto Operaciones",
-    "company": {
-       "name": "Madrileña de Construcciones SA",
-	"avatar": "https://via.placeholder.com/150"
-	}
+  "User": {
+    "name": {
+      "string": {}
+    },
+    "avatarUrl": {
+      "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
+    },
+    "email": {
+      "regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
+    },
+    "color": {
+      "regexp": "#[0-9A-F]{6}"
+    },
+    "age": {
+      "int": {
+        "min": 21,
+        "max": 100
+      }
+    },
+    "isPublic": {
+      "boolean": {}
     }
- }	
+  }
 }
