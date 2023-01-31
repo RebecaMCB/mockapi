@@ -2,7 +2,7 @@
   "User": {
     "title": { "string": {} }
   },
-"auth-ok": {
+"Auth": {
 	"code": "200",
 	"user": {
 		"name": "Julio González",
