@@ -30,7 +30,10 @@
     "isPublic": {
       "boolean": {}
     }
-  },
+  }
+}
+
+{
   "Authok": {
      "code": {
        "int": 200
