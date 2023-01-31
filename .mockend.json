@@ -6,22 +6,22 @@
 
 {
 "auth-ok": {
-  code: 200,
-  user: {
-    name: 'Julio González',
-    token: 'privateTokenForFetch',
-    avatar: 'https://via.placeholder.com/150',
-    company_position: 'Dpto Operaciones',
-    company: {
-      name: 'Madrileña de Construcciones SA',
-      avatar: 'https://via.placeholder.com/150'
+  "code": "200",
+  "user": {
+    "name": 'Julio González',
+    "token": 'privateTokenForFetch',
+    "avatar": 'https://via.placeholder.com/150',
+    "company_position": 'Dpto Operaciones',
+    "company": {
+      "name": 'Madrileña de Construcciones SA',
+      "avatar": 'https://via.placeholder.com/150'
     }
   }
 }
   
 {
 "auth-error": {
-  code: 403,
-  user: null
+  "code": 403,
+  "user": null
   }
 }
