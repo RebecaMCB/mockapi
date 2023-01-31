@@ -1,39 +1,4 @@
 {
-  "User": {
-    "_": {
-      "items": 1
-    },
-    "code": {
-      "int": [200, 401, 403]
-    },
-    "name": {
-      "string": {}
-    },
-    "token": {
-      "regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
-    },
-    "avatarUrl": {
-      "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
-    },
-    "email": {
-      "regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
-    },
-    "color": {
-      "regexp": "#[0-9A-F]{6}"
-    },
-    "age": {
-      "int": {
-        "min": 21,
-        "max": 100
-      }
-    },
-    "isPublic": {
-      "boolean": {}
-    }
-  }
-}
-
-{
   "Authok": {
      "code": {
        "int": 200
