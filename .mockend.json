@@ -1,10 +1,10 @@
 {
   "Authok": {
      "code": {
-       "string": {}
+       "string": ["200"]
      },
     "name": {
-      "string": {}
+      "string": ["Paco"]
     }
   }
 }
